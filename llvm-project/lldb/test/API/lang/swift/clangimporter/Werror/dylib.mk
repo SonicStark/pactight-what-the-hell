@@ -1,7 +1,0 @@
-SWIFT_OBJC_INTEROP := 1
-DYLIB_SWIFT_SOURCES := dylib.swift
-DYLIB_NAME := Dylib
-
-SWIFTFLAGS_EXTRAS = -Xcc -DCONFLICT=0
-
-include Makefile.rules

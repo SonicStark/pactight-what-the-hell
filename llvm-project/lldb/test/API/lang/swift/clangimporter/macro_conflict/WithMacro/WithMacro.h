@@ -1,3 +1,0 @@
-struct STRUCTNAME {
-  int i;
-};

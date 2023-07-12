@@ -1,3 +1,0 @@
-struct CBar {
-  int j;
-};

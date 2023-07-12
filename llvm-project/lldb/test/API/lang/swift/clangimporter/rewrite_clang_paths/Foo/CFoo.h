@@ -1,1 +1,0 @@
-struct CFoo { int x; };

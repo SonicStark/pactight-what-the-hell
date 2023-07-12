@@ -1,1 +1,0 @@
-struct FooFoo { int i; };

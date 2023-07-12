@@ -1,1 +1,0 @@
-struct FromBridgingHeader { int y; };

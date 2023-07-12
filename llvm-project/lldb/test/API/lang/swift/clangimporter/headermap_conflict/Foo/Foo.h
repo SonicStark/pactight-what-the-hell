@@ -1,1 +1,0 @@
-struct FooNested { int i; };
