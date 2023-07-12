@@ -9,6 +9,7 @@ In Proceedings of the 31st USENIX Security Symposium (USENIX Security 2022)*
 Only modified stuffs are preserved in this repository, so that developers can quickly inspect its implementation.
 
  * `diff-output.txt` - Output of diff (already re-organized) against PACTight/llvm-project and Apple's LLVM (swift-5.3.1-RELEASE).
+ * `tree-output.txt` - Output of `tree ./llvm-project`.
  * `llvm-project` - All stuffs that PACTight modified (the deleted is excluded).
  * `CMakeLists.txt` - CMake file for building PACTight (keep as-is).
  * `example` - Example code (keep as-is).
