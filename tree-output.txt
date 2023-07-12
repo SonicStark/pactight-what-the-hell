@@ -6,50 +6,14 @@
 │   │       │   └── Sanitizers.def
 │   │       └── Driver
 │   │           └── SanitizerArgs.h
-│   ├── lib
-│   │   ├── CodeGen
-│   │   │   └── BackendUtil.cpp
-│   │   └── Driver
-│   │       ├── ToolChain.cpp
-│   │       └── ToolChains
-│   │           ├── CommonArgs.cpp
-│   │           └── Darwin.cpp
-│   └── test
+│   └── lib
+│       ├── CodeGen
+│       │   └── BackendUtil.cpp
 │       └── Driver
-│           └── Inputs
-│               ├── basic_cross_linux_tree
-│               │   └── usr
-│               │       ├── bin
-│               │       │   ├── i386-unknown-linux-gnu-ld
-│               │       │   └── x86_64-unknown-linux-gnu-ld
-│               │       ├── i386-unknown-linux-gnu
-│               │       │   └── bin
-│               │       │       └── ld
-│               │       └── x86_64-unknown-linux-gnu
-│               │           └── bin
-│               │               └── ld
-│               ├── CUDA-symlinks
-│               │   └── usr
-│               │       └── bin
-│               │           └── ptxas
-│               ├── multilib_32bit_linux_tree
-│               │   └── usr
-│               │       ├── bin
-│               │       │   ├── as
-│               │       │   └── ld
-│               │       └── i386-unknown-linux
-│               │           └── bin
-│               │               ├── as
-│               │               └── ld
-│               └── multilib_64bit_linux_tree
-│                   └── usr
-│                       ├── bin
-│                       │   ├── as
-│                       │   └── ld
-│                       └── x86_64-unknown-linux
-│                           └── bin
-│                               ├── as
-│                               └── ld
+│           ├── ToolChain.cpp
+│           └── ToolChains
+│               ├── CommonArgs.cpp
+│               └── Darwin.cpp
 ├── compiler-rt
 │   ├── cmake
 │   │   └── config-ix.cmake
@@ -64,84 +28,6 @@
 │   └── test
 │       └── dvipac
 │           └── CMakeLists.txt
-├── libclc
-│   └── amdgcn-mesa3d
-│       └── lib
-│           ├── SOURCES
-│           └── workitem
-│               ├── get_global_size.cl
-│               ├── get_local_size.cl
-│               └── get_num_groups.cl
-├── libcxx
-│   └── test
-│       └── std
-│           ├── input.output
-│           │   └── filesystems
-│           │       └── Inputs
-│           │           └── static_test_env
-│           │               ├── dir1
-│           │               │   └── dir2
-│           │               │       └── symlink_to_dir3
-│           │               │           └── file5
-│           │               ├── symlink_to_dir
-│           │               │   ├── dir2
-│           │               │   │   ├── afile3
-│           │               │   │   ├── dir3
-│           │               │   │   │   └── file5
-│           │               │   │   ├── file4
-│           │               │   │   └── symlink_to_dir3
-│           │               │   │       └── file5
-│           │               │   ├── file1
-│           │               │   └── file2
-│           │               └── symlink_to_empty_file
-│           └── pstl
-│               ├── algorithms
-│               │   ├── alg.merge
-│               │   │   ├── inplace_merge.pass.cpp
-│               │   │   └── merge.pass.cpp
-│               │   ├── alg.nonmodifying
-│               │   │   ├── adjacent_find.pass.cpp
-│               │   │   ├── all_of.pass.cpp
-│               │   │   ├── any_of.pass.cpp
-│               │   │   ├── count.pass.cpp
-│               │   │   ├── equal.pass.cpp
-│               │   │   ├── find_end.pass.cpp
-│               │   │   ├── find_first_of.pass.cpp
-│               │   │   ├── find_if.pass.cpp
-│               │   │   ├── find.pass.cpp
-│               │   │   ├── for_each.pass.cpp
-│               │   │   ├── mismatch.pass.cpp
-│               │   │   ├── none_of.pass.cpp
-│               │   │   ├── nth_element.pass.cpp
-│               │   │   └── search_n.pass.cpp
-│               │   └── alg.sorting
-│               │       ├── alg.heap.operations
-│               │       │   └── is_heap.pass.cpp
-│               │       ├── alg.lex.comparison
-│               │       │   └── lexicographical_compare.pass.cpp
-│               │       ├── alg.min.max
-│               │       │   └── minmax_element.pass.cpp
-│               │       ├── alg.set.operations
-│               │       │   ├── includes.pass.cpp
-│               │       │   └── set.pass.cpp
-│               │       ├── is_sorted.pass.cpp
-│               │       ├── partial_sort_copy.pass.cpp
-│               │       ├── partial_sort.pass.cpp
-│               │       └── sort.pass.cpp
-│               ├── lit.local.cfg
-│               ├── numerics
-│               │   └── numeric.ops
-│               │       ├── adjacent_difference.pass.cpp
-│               │       ├── reduce.pass.cpp
-│               │       ├── scan.pass.cpp
-│               │       ├── transform_reduce.pass.cpp
-│               │       └── transform_scan.pass.cpp
-│               └── utilities
-│                   └── memory
-│                       └── specialized.algorithms
-│                           ├── uninitialized_construct.pass.cpp
-│                           ├── uninitialized_copy_move.pass.cpp
-│                           └── uninitialized_fill_destroy.pass.cpp
 └── llvm
     ├── include
     │   └── llvm
@@ -180,4 +66,4 @@
         └── llvm-extract
             └── llvm-extract.cpp
 
-87 directories, 93 files
+32 directories, 34 files

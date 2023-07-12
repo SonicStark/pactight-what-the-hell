@@ -111,135 +111,6 @@ diff --color -r -u llvm-project-swift-5.3.1-RELEASE/clang/lib/Driver/ToolChains/
 
 
 
-diff --color -r -u llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/CUDA-symlinks/usr/bin/ptxas pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/CUDA-symlinks/usr/bin/ptxas
---- llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/CUDA-symlinks/usr/bin/ptxas	2020-10-20 16:10:22.000000000 +0800
-+++ pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/CUDA-symlinks/usr/bin/ptxas	2022-11-14 14:54:02.000000000 +0800
-@@ -1 +0,0 @@
--../../opt/cuda/bin/ptxas
-\ No newline at end of file
-
-
-
-diff --color -r -u llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/basic_cross_linux_tree/usr/bin/i386-unknown-linux-gnu-ld pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/basic_cross_linux_tree/usr/bin/i386-unknown-linux-gnu-ld
---- llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/basic_cross_linux_tree/usr/bin/i386-unknown-linux-gnu-ld	2020-10-20 16:10:22.000000000 +0800
-+++ pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/basic_cross_linux_tree/usr/bin/i386-unknown-linux-gnu-ld	2022-11-14 14:54:02.000000000 +0800
-@@ -1 +1 @@
--i386-unknown-linux-gnu-ld.gold
-\ No newline at end of file
-+#!/bin/true
-
-
-
-diff --color -r -u llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/basic_cross_linux_tree/usr/bin/x86_64-unknown-linux-gnu-ld pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/basic_cross_linux_tree/usr/bin/x86_64-unknown-linux-gnu-ld
---- llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/basic_cross_linux_tree/usr/bin/x86_64-unknown-linux-gnu-ld	2020-10-20 16:10:22.000000000 +0800
-+++ pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/basic_cross_linux_tree/usr/bin/x86_64-unknown-linux-gnu-ld	2022-11-14 14:54:02.000000000 +0800
-@@ -1 +1 @@
--x86_64-unknown-linux-gnu-ld.gold
-\ No newline at end of file
-+#!/bin/true
-
-
-
-diff --color -r -u llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/basic_cross_linux_tree/usr/i386-unknown-linux-gnu/bin/ld pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/basic_cross_linux_tree/usr/i386-unknown-linux-gnu/bin/ld
---- llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/basic_cross_linux_tree/usr/i386-unknown-linux-gnu/bin/ld	2020-10-20 16:10:22.000000000 +0800
-+++ pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/basic_cross_linux_tree/usr/i386-unknown-linux-gnu/bin/ld	2022-11-14 14:54:02.000000000 +0800
-@@ -1 +1 @@
--ld.gold
-\ No newline at end of file
-+#!/bin/true
-
-
-
-diff --color -r -u llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/basic_cross_linux_tree/usr/x86_64-unknown-linux-gnu/bin/ld pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/basic_cross_linux_tree/usr/x86_64-unknown-linux-gnu/bin/ld
---- llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/basic_cross_linux_tree/usr/x86_64-unknown-linux-gnu/bin/ld	2020-10-20 16:10:22.000000000 +0800
-+++ pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/basic_cross_linux_tree/usr/x86_64-unknown-linux-gnu/bin/ld	2022-11-14 14:54:02.000000000 +0800
-@@ -1 +1 @@
--ld.gold
-\ No newline at end of file
-+#!/bin/true
-
-
-
-diff --color -r -u llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/multilib_32bit_linux_tree/usr/bin/as pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/multilib_32bit_linux_tree/usr/bin/as
---- llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/multilib_32bit_linux_tree/usr/bin/as	2020-10-20 16:10:22.000000000 +0800
-+++ pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/multilib_32bit_linux_tree/usr/bin/as	2022-11-14 14:54:02.000000000 +0800
-@@ -1 +1 @@
--i386-unknown-linux-gnu-as
-\ No newline at end of file
-+#!/bin/true
-
-
-
-diff --color -r -u llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/multilib_32bit_linux_tree/usr/bin/ld pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/multilib_32bit_linux_tree/usr/bin/ld
---- llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/multilib_32bit_linux_tree/usr/bin/ld	2020-10-20 16:10:22.000000000 +0800
-+++ pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/multilib_32bit_linux_tree/usr/bin/ld	2022-11-14 14:54:02.000000000 +0800
-@@ -1 +1 @@
--i386-unknown-linux-gnu-ld
-\ No newline at end of file
-+#!/bin/true
-
-
-
-diff --color -r -u llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/multilib_32bit_linux_tree/usr/i386-unknown-linux/bin/as pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/multilib_32bit_linux_tree/usr/i386-unknown-linux/bin/as
---- llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/multilib_32bit_linux_tree/usr/i386-unknown-linux/bin/as	2020-10-20 16:10:22.000000000 +0800
-+++ pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/multilib_32bit_linux_tree/usr/i386-unknown-linux/bin/as	2022-11-14 14:54:02.000000000 +0800
-@@ -1 +1 @@
--../../bin/i386-unknown-linux-gnu-as
-\ No newline at end of file
-+#!/bin/true
-
-
-
-diff --color -r -u llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/multilib_32bit_linux_tree/usr/i386-unknown-linux/bin/ld pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/multilib_32bit_linux_tree/usr/i386-unknown-linux/bin/ld
---- llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/multilib_32bit_linux_tree/usr/i386-unknown-linux/bin/ld	2020-10-20 16:10:22.000000000 +0800
-+++ pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/multilib_32bit_linux_tree/usr/i386-unknown-linux/bin/ld	2022-11-14 14:54:02.000000000 +0800
-@@ -1 +1 @@
--../../bin/i386-unknown-linux-gnu-ld
-\ No newline at end of file
-+#!/bin/true
-
-
-
-diff --color -r -u llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/multilib_64bit_linux_tree/usr/bin/as pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/multilib_64bit_linux_tree/usr/bin/as
---- llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/multilib_64bit_linux_tree/usr/bin/as	2020-10-20 16:10:22.000000000 +0800
-+++ pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/multilib_64bit_linux_tree/usr/bin/as	2022-11-14 14:54:02.000000000 +0800
-@@ -1 +1 @@
--x86_64-unknown-linux-gnu-as
-\ No newline at end of file
-+#!/bin/true
-
-
-
-diff --color -r -u llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/multilib_64bit_linux_tree/usr/bin/ld pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/multilib_64bit_linux_tree/usr/bin/ld
---- llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/multilib_64bit_linux_tree/usr/bin/ld	2020-10-20 16:10:22.000000000 +0800
-+++ pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/multilib_64bit_linux_tree/usr/bin/ld	2022-11-14 14:54:02.000000000 +0800
-@@ -1 +1 @@
--x86_64-unknown-linux-gnu-ld
-\ No newline at end of file
-+#!/bin/true
-
-
-
-diff --color -r -u llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/multilib_64bit_linux_tree/usr/x86_64-unknown-linux/bin/as pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/multilib_64bit_linux_tree/usr/x86_64-unknown-linux/bin/as
---- llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/multilib_64bit_linux_tree/usr/x86_64-unknown-linux/bin/as	2020-10-20 16:10:22.000000000 +0800
-+++ pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/multilib_64bit_linux_tree/usr/x86_64-unknown-linux/bin/as	2022-11-14 14:54:02.000000000 +0800
-@@ -1 +1 @@
--../../bin/x86_64-unknown-linux-gnu-as
-\ No newline at end of file
-+#!/bin/true
-
-
-
-diff --color -r -u llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/multilib_64bit_linux_tree/usr/x86_64-unknown-linux/bin/ld pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/multilib_64bit_linux_tree/usr/x86_64-unknown-linux/bin/ld
---- llvm-project-swift-5.3.1-RELEASE/clang/test/Driver/Inputs/multilib_64bit_linux_tree/usr/x86_64-unknown-linux/bin/ld	2020-10-20 16:10:22.000000000 +0800
-+++ pactight-what-the-hell-main/llvm-project/clang/test/Driver/Inputs/multilib_64bit_linux_tree/usr/x86_64-unknown-linux/bin/ld	2022-11-14 14:54:02.000000000 +0800
-@@ -1 +1 @@
--../../bin/x86_64-unknown-linux-gnu-ld
-\ No newline at end of file
-+#!/bin/true
-
-
-
 diff --color -r -u llvm-project-swift-5.3.1-RELEASE/compiler-rt/cmake/config-ix.cmake pactight-what-the-hell-main/llvm-project/compiler-rt/cmake/config-ix.cmake
 --- llvm-project-swift-5.3.1-RELEASE/compiler-rt/cmake/config-ix.cmake	2020-10-20 16:10:22.000000000 +0800
 +++ pactight-what-the-hell-main/llvm-project/compiler-rt/cmake/config-ix.cmake	2022-11-14 14:54:02.000000000 +0800
@@ -274,15 +145,6 @@ diff --color -r -u llvm-project-swift-5.3.1-RELEASE/compiler-rt/lib/CMakeLists.t
  endif()
  
  if(COMPILER_RT_BUILD_PROFILE AND COMPILER_RT_HAS_PROFILE)
-
-
-
-diff --color -r -u llvm-project-swift-5.3.1-RELEASE/libcxx/test/std/input.output/filesystems/Inputs/static_test_env/symlink_to_empty_file pactight-what-the-hell-main/llvm-project/libcxx/test/std/input.output/filesystems/Inputs/static_test_env/symlink_to_empty_file
---- llvm-project-swift-5.3.1-RELEASE/libcxx/test/std/input.output/filesystems/Inputs/static_test_env/symlink_to_empty_file	2020-10-20 16:10:22.000000000 +0800
-+++ pactight-what-the-hell-main/llvm-project/libcxx/test/std/input.output/filesystems/Inputs/static_test_env/symlink_to_empty_file	2022-11-14 14:54:02.000000000 +0800
-@@ -1 +0,0 @@
--empty_file
-\ No newline at end of file
 
 
 
@@ -1060,15 +922,6 @@ diff --color -r -u llvm-project-swift-5.3.1-RELEASE/llvm/tools/llvm-extract/llvm
 
 
 
-File llvm-project-swift-5.3.1-RELEASE/libclc/amdgcn-mesa3d is a regular file while file pactight-what-the-hell-main/llvm-project/libclc/amdgcn-mesa3d is a directory
-File llvm-project-swift-5.3.1-RELEASE/libcxx/test/std/input.output/filesystems/Inputs/static_test_env/dir1/dir2/symlink_to_dir3 is a regular file while file pactight-what-the-hell-main/llvm-project/libcxx/test/std/input.output/filesystems/Inputs/static_test_env/dir1/dir2/symlink_to_dir3 is a directory
-File llvm-project-swift-5.3.1-RELEASE/libcxx/test/std/input.output/filesystems/Inputs/static_test_env/symlink_to_dir is a regular file while file pactight-what-the-hell-main/llvm-project/libcxx/test/std/input.output/filesystems/Inputs/static_test_env/symlink_to_dir is a directory
-File llvm-project-swift-5.3.1-RELEASE/libcxx/test/std/pstl is a regular file while file pactight-what-the-hell-main/llvm-project/libcxx/test/std/pstl is a directory
-
-
-
-Only in pactight-what-the-hell-main/llvm-project: .github
-
 Only in pactight-what-the-hell-main/llvm-project/compiler-rt/lib: dvipac
 Only in pactight-what-the-hell-main/llvm-project/compiler-rt/test: dvipac
 
@@ -1078,13 +931,7 @@ Only in pactight-what-the-hell-main/llvm-project/llvm/include/llvm/Transforms/In
 Only in pactight-what-the-hell-main/llvm-project/llvm/lib/Transforms/IPO: DVIPACPass.cpp
 Only in pactight-what-the-hell-main/llvm-project/llvm/lib/Transforms/IPO: InitDVIPACPass.cpp
 
-Only in llvm-project-swift-5.3.1-RELEASE/llvm/utils/vscode/tablegen: .vscode
-
-Only in llvm-project-swift-5.3.1-RELEASE/libcxx/test/std/containers/sequences/forwardlist: forwardlist.spec
-Only in llvm-project-swift-5.3.1-RELEASE/libcxx/test/std/input.output/filesystems/Inputs/static_test_env: bad_symlink
-Only in llvm-project-swift-5.3.1-RELEASE/libcxx/test/std/utilities/memory/util.smartptr/util.smartptr.shared: util.smartptr.shared.spec
-Only in llvm-project-swift-5.3.1-RELEASE/libcxx/test/std/utilities/memory/util.smartptr/util.smartptr.weak: util.smartptr.weak.spec
-Only in llvm-project-swift-5.3.1-RELEASE/libcxx/test/std/utilities/utility/pairs: pairs.spec
+Only in pactight-what-the-hell-main/llvm-project: .github
 
 Only in llvm-project-swift-5.3.1-RELEASE/clang/test/APINotes/Inputs/Frameworks/FrameworkWithActualPrivateModule.framework: Modules
 Only in llvm-project-swift-5.3.1-RELEASE/clang/test/APINotes/Inputs/Frameworks/FrameworkWithWrongCase.framework: Modules
